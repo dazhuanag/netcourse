@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CourseMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Course">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="course_id" jdbcType="INTEGER" property="courseId" />
+    <result column="course_name" jdbcType="VARCHAR" property="courseName" />
+    <result column="course_type" jdbcType="INTEGER" property="courseType" />
+    <result column="course_intro" jdbcType="VARCHAR" property="courseIntro" />
+    <result column="course_pic" jdbcType="VARCHAR" property="coursePic" />
+    <result column="course_video" jdbcType="VARCHAR" property="courseVideo" />
+    <result column="hit_count" jdbcType="INTEGER" property="hitCount" />
+    <result column="upload_uid" jdbcType="INTEGER" property="uploadUid" />
+  </resultMap>
+</mapper>

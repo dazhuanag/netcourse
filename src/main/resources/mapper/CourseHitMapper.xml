@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CourseHitMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.CourseHit">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="course_hit_id" jdbcType="INTEGER" property="courseHitId" />
+    <result column="course_id" jdbcType="INTEGER" property="courseId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+  </resultMap>
+</mapper>
